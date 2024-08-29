@@ -19,8 +19,6 @@ npm i
 ```
 
 Uruchom program:
-
-Skopiuj kod
 ```bash
 npx ts-node src/Main.ts
 ```
