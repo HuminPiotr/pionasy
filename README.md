@@ -1,8 +1,8 @@
 Uruchamianie programu
-Umieść dane wejściowe w pliku input.txt w katalogu głównym projektu. Plik powinien zawierać 6 linii, zgodnie z formatem:
+Umieść dane wejściowe w pliku src/input.txt. Plik powinien zawierać 6 linii, zgodnie z formatem:
 
 
-Format danych wejściowych
+Format danych wejściowych:
 ```bash
 <nazwa_drużyny_A>
 <współczynnik_prędkości_drużyny_A>
@@ -10,7 +10,6 @@ Format danych wejściowych
 <współczynnik_prędkości_drużyny_B>
 <wielkość_planszy_x>
 <wielkość_planszy_y>
-Przykład zawartości input.txt:
 ```
 
 Jeśli zainstalowałeś ts-node globalnie:
@@ -24,6 +23,6 @@ Jeśli zainstalowałeś ts-node lokalnie:
 
 Skopiuj kod
 ```bash
-npx ts-node Main.ts
+npx ts-node src/Main.ts
 ```
 Program przetworzy dane wejściowe, wykona symulację i wyświetli wynik w terminalu.
