@@ -12,18 +12,22 @@ Format danych wejściowych:
 <wielkość_planszy_x>
 <wielkość_planszy_y>
 ```
+Zainstaluj zależności:
 
-Jeśli zainstalowałeś ts-node globalnie:
-
-Skopiuj kod
 ```bash
-ts-node src/Main.ts
+npm i
 ```
 
-Jeśli zainstalowałeś ts-node lokalnie:
+Uruchom program:
 
 Skopiuj kod
 ```bash
 npx ts-node src/Main.ts
 ```
+
+lub jeśli masz zainstalowany ts-node globalnie możesz użyć:
+```bash
+ts-node src/Main.ts
+```
+
 Program przetworzy dane wejściowe, wykona symulację i wyświetli wynik w terminalu.
