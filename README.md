@@ -1,4 +1,5 @@
 Uruchamianie programu
+
 Umieść dane wejściowe w pliku src/input.txt. Plik powinien zawierać 6 linii, zgodnie z formatem:
 
 
